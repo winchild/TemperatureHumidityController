@@ -68,8 +68,8 @@ int toggle = 0;
 //int humi_opr = 0; //1;
 //int temp_opr = 1; //0;
 
-int t_const = 2;  // 온도 보정수치 - 가열식이므로 잠열에 의한 온도 상승 보정치
-int h_const = 3;  // 가습 보정수치 - 가열식이므로 잠열에 의한 온도 상승 보정치
+int t_const = 0;  // 온도 보정수치 - 가열식이므로 잠열에 의한 온도 상승 보정치
+int h_const = 5;  // 가습 보정수치 - 가열식이므로 잠열에 의한 온도 상승 보정치
  
 void loop() {
 
