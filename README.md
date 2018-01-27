@@ -21,12 +21,13 @@ A program created during transformation into a digital controller based on Ardui
 2) 온도 센싱
   2.1) (가열 목표값 + 보정상수) > 실제값 - 가열히터 OFF 면 ON [보정상수는 히터를 껏을 경우 잠열이 유지되는 시간]
   2.2) 위 값이 아니면 가열히터 ON 이면 OFF
-3) ---
+
+3) NONE
 
 4) 습도 센싱
   4.1) (가습 목표값 + 보정상수) > 실제값 - 가습히터 OFF 면 ON [보정상수는 히터를 껏을 경우 잠열이 유지되는 시간]
   4.2) 위 값이 아니면 가습히터 ON 이면 OFF
-5) ---
+5) NONE
 
 6) T1 버튼 센싱
   6.1) 가열목표값에 + 1
