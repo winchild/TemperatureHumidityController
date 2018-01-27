@@ -51,6 +51,50 @@ A program created during transformation into a digital controller based on Ardui
 Temp: 28 / 30 (5) *
 Humi: 75 / 80 (5) -
 
+Fermenter for Baking Aduino / Humidity Controller
 
+The professor who taught baking gave me a fermenter operated by an analog controller.
+In actual use, the temperature seems to fit, but the humidity did not match at all. Humidity goes up to more than 90% when operated.
+
+The heating and humidifying devices would be difficult to touch, but the controller seemed to be able to change them digitally.
+So, DHT-22 temperature and humidity sensor, 1602 LCD panel, 4 tap switches (temperature up / down, humidity up / down), 2 relays for heater and humidifier
+I made the Arduino temperature and humidity controller.
+
+
+Program algorithm
+
+1) 500 ms interval LOOP - Check button switch interval.
+
+2) Temperature sensing
+  2.1) (heating target value + correction constant)> Actual value - ON when heating heater is OFF [The correction constant is the time during which the latent heat is maintained when the heater is turned off]
+  2.2) If it is not above value, if heater heater is ON, OFF
+3) none
+
+4) Humidity sensing
+  4.1) (Humidification target value + correction constant)> Actual value - ON when humidification heater is OFF [Calibration constant is the time when latent heat is maintained when heater is turned off]
+  4.2) If it is not above value, if humidification heater is ON, OFF
+5) none
+
+6) T1 Button Sensing
+  6.1) Heating target value + 1
+
+7) T2 button sensing
+  7.1) Heating target value - 1
+
+8) T1, T2 mode switching (correction constant)
+
+9) H1 button sensing
+  8.1) Humidification target value + 1
+
+10) H2 Button Sensing
+  9.1) Humidification target value - 1
+
+11) H1, H2 mode switching (correction constant)
+
+12) Temperature / humidity / temperature target / humidification target / temperature correction constant / humidification correction constant / heating heater operation status / humidification heater operation status output
+
+Display window
+Temp: 28/30 (5) *
+Humi: 75/80 (5) -
 
 
