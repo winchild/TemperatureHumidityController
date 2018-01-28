@@ -17,11 +17,11 @@ A program created during transformation into a digital controller based on Ardui
 
 ![TemperatureHumidityController](./image/pic_analog_fermenter.jpg)
 
-![TemperatureHumidityController](.image/pic_aduino_breadboard.jpg)
+![TemperatureHumidityController](./image/pic_aduino_breadboard.jpg)
 
-![TemperatureHumidityController](.image/install_picture.jpg)
+![TemperatureHumidityController](./image/install_picture.jpg)
 
-![TemperatureHumidityController](.image/pic_casing_picture.jpg)
+![TemperatureHumidityController](./image/pic_casing_picture.jpg)
 
 
 프로그램 알고리즘
