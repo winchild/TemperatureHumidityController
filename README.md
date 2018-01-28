@@ -4,6 +4,8 @@ In the baking machine, temperature and humidity controller
 The analog thermostat of the spherical fermenter is not controlled properly, making it difficult to make bread. 
 A program created during transformation into a digital controller based on Arduino.
 
+
+
 제빵용 발효기 아두이노 온/습도 제어기 자작기
 
 제빵을 가르쳐 주신 교수님께서 아날로그식 제어기로 작동되는 발효기를 주셨음. 
@@ -12,6 +14,14 @@ A program created during transformation into a digital controller based on Ardui
 가열장치 및 가습장치는 손대기 어렵겠지만, 제어기는 디지탈 방식으로 바꿀수 있을 듯 했음.
 그래서 DHT-22 온습도 센서와 1602 LCD 판넬, 4개의 탭스위치 (온도 상/하, 습도 상/하), 가열기 및 가습기용 릴레이 2 개로 
 아두이노 온습도 제어기를 만들었음.
+
+![TemperatureHumidityController](./image/pic_analog_fermenter.jpg)
+
+![TemperatureHumidityController](.image/pic_aduino_breadboard.jpg)
+
+![TemperatureHumidityController](.image/install_picture.jpg)
+
+![TemperatureHumidityController](.image/pic_casing_picture.jpg)
 
 
 프로그램 알고리즘
