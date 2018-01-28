@@ -15,13 +15,13 @@ A program created during transformation into a digital controller based on Ardui
 그래서 DHT-22 온습도 센서와 1602 LCD 판넬, 4개의 탭스위치 (온도 상/하, 습도 상/하), 가열기 및 가습기용 릴레이 2 개로 
 아두이노 온습도 제어기를 만들었음.
 
-![TemperatureHumidityController](./image/pic_analog_fermenter.jpg)
+![TemperatureHumidityController](/image/pic_analog_fermenter.jpg)
 
-![TemperatureHumidityController](./image/pic_aduino_breadboard.jpg)
+![TemperatureHumidityController](/image/pic_aduino_breadboard.jpg)
 
-![TemperatureHumidityController](./image/install_picture.jpg)
+![TemperatureHumidityController](/image/install_picture.jpg)
 
-![TemperatureHumidityController](./image/pic_casing_picture.jpg)
+![TemperatureHumidityController](/image/pic_casing_picture.jpg)
 
 
 프로그램 알고리즘
